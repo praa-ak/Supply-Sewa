@@ -1,9 +1,14 @@
 <x-guest-layout>
 
     <section>
-        <div class="max-h-screen w-full">
-            <img  src="https://cdn.pixabay.com/photo/2022/02/19/12/05/delivery-7022432_1280.png" alt="">
-        </div>
+        <a href="{{route('login')}}">
+
+            <button class="btn btn-success my-2 mx-3">Login</button>
+        </a>
+        <a href="{{route('register')}}">
+
+            <button class="btn btn-primary my-2 mx-3">Register</button>
+        </a>
     </section>
 </x-guest-layout>
 
